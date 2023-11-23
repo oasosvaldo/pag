@@ -1,0 +1,9 @@
+.Footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    background-color: #0b4669;
+    color: aliceblue;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}

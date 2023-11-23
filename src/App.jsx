@@ -3,6 +3,7 @@ import { Home } from "./pages/Home";
 import { Empresa } from "./pages/Empresa";
 import { Contato } from "./pages/Contato";
 import Header from './components/Header'
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/empresa"><Empresa /></Route>
         <Route path="/contato"><Contato /></Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
