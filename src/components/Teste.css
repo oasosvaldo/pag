@@ -1,0 +1,35 @@
+.teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {    
+    padding: 20px;
+}
+
+.resposta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.res {
+    display: none;
+    padding: 20px;
+}
+
+.status {
+    display: none;
+    padding: 5px;
+}
+
+.btnInicio {
+    display: none;
+}
+
+.btnInicio {
+    margin: 20px;
+}
