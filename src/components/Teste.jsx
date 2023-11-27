@@ -43,15 +43,22 @@ const Teste = () => {
   }
   return (
     <div>
-      <h1>Vamos fazer algumas contas:</h1>
       <div className='form'>
-        <div className="teste">
-          <h2>Preencha os campos abaixo!</h2>
-          <label>Digite seu nome:</label><input className="nome" type="text" placeholder="Digite seu nome completo" />
-          <label>Digite a primeira nota:</label><input className="n1" type="text" placeholder="primeira nota" />
-          <label>Digite a segunda nota:</label><input className="n2" type="text" placeholder="segunda nota" />
-          <label>Digite a terceira nota:</label><input className="n3" type="text" placeholder="terceira nota" />
-        </div>
+        <h1>Preencha os campos abaixo!</h1>
+        <ul>
+          <li>
+            <label>Digite seu nome:</label><input className="nome" type="text" placeholder="Digite seu nome completo" />
+          </li>
+          <li>
+            <label>Digite a primeira nota:</label><input className="n1" type="text" placeholder="primeira nota" />
+          </li>
+          <li>
+            <label>Digite a segunda nota:</label><input className="n2" type="text" placeholder="segunda nota" />
+          </li>
+          <li>
+            <label>Digite a terceira nota:</label><input className="n3" type="text" placeholder="terceira nota" />
+          </li>
+        </ul>
         <button className='btnCalc' onClick={calcular}>Calcular</button>
       </div>
       <div className='resposta'>

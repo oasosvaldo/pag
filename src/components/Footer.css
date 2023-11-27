@@ -1,9 +1,12 @@
 .Footer {
-    position: fixed;
-    bottom: 0px;
-    width: 100vw;
-    background-color: #0b4669;
+    margin: 10px 0px 100px 0px;
+    width: 96vw;
+    height: 40px;
+    background-color: hsla(202, 81%, 23%, 0.600);
+    border-radius: 10px;
     color: aliceblue;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Helvetica, Arial, sans-serif;
 }

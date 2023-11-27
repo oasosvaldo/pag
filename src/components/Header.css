@@ -19,7 +19,7 @@
 .cssmenu {
   position: fixed;
   top: 0px;
-  width: 100vw;
+  width: 96vw;
   height: 60px;
   background-color: #0b4669;
   font-family: Helvetica, Arial, sans-serif;
@@ -27,17 +27,7 @@
 }
 
 .cssmenu ul {
-  position: fixed;
-  top: 60px;
-  width: 100vw;
-}
-
-.cssmenu.align-right ul li {
-  float: right;
-  border-right: 0;
-}
-.cssmenu.align-right ul li a {
-  border-right: 0;
+  width: 96vw;
 }
 .cssmenu ul {
   background: #222222;
