@@ -5,7 +5,7 @@ import Logo from '../imgs/LogoKart.png'
 
 const Navbar = () => {
   return (
-    <div className='cssmenu'>      
+    <header>      
       <div className='Logo'><Link to="/"><img src={Logo} alt="Logo" /></Link></div>        
       <ul>
         <li className='last'><Link to="/">Home</Link></li>
@@ -13,7 +13,7 @@ const Navbar = () => {
         <li className='last'><Link to="/contato">Contato</Link></li>
         <li className='last'><Link to="/media">Media</Link></li>
       </ul>
-    </div>
+    </header>
   )
 }
 

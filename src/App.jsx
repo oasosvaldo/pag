@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Empresa } from "./pages/Empresa";
 import { Contato } from "./pages/Contato";
-import  Media  from "./pages/Media";
+import Media from "./pages/Media";
 import Header from './components/Header'
 import Footer from "./components/Footer";
 
@@ -10,12 +10,14 @@ function App() {
   return (
     <Router>
       <Header></Header>
-      <Switch>
-        <Route exact path="/"><Home /></Route>
-        <Route path="/empresa"><Empresa /></Route>
-        <Route path="/contato"><Contato /></Route>
-        <Route path="/media"><Media /></Route>
-      </Switch>
+      <main>
+        <Switch>
+          <Route exact path="/"><Home /></Route>
+          <Route path="/empresa"><Empresa /></Route>
+          <Route path="/contato"><Contato /></Route>
+          <Route path="/media"><Media /></Route>
+        </Switch>
+      </main>
       <Footer />
     </Router>
   );

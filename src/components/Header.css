@@ -5,10 +5,10 @@
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.400);
 }
 
-.cssmenu,
-.cssmenu ul,
-.cssmenu ul li,
-.cssmenu ul li a {
+header,
+header ul,
+header ul li,
+header ul li a {
   margin: 0;
   padding: 0;
   border: 0;
@@ -16,7 +16,7 @@
   line-height: 1;
   display: block;
 }
-.cssmenu {
+header {
   position: fixed;
   top: 0px;
   width: 96vw;
@@ -26,10 +26,10 @@
   color: #ffffff;
 }
 
-.cssmenu ul {
+header ul {
   width: 96vw;
 }
-.cssmenu ul {
+header ul {
   background: #222222;
   /* Old browsers */
 
@@ -39,8 +39,8 @@
   background: -ms-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
   background: linear-gradient(to top, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
 }
-.cssmenu:after,
-.cssmenu ul:after {
+header:after,
+header ul:after {
   content: ".";
   display: block;
   clear: both;
@@ -48,17 +48,17 @@
   line-height: 0;
   height: 0;
 }
-.cssmenu ul li {
+header ul li {
   float: left;
   display: block;
   border-right: 1px solid rgba(0, 0, 0, 0.22);
   z-index: 1;
 }
-.cssmenu ul li::after {
+header ul li::after {
   content: "";
   height: 8px;
 }
-.cssmenu ul li a {
+header ul li a {
   display: block;
   padding: 10px 30px;
   text-decoration: none;
@@ -68,12 +68,12 @@
   border-right: 1px solid rgba(255, 255, 255, 0.15);
   z-index: 3;
 }
-.cssmenu ul li a:hover,
-.cssmenu ul li.active a {
+header ul li a:hover,
+header ul li.active a {
   color: #000000;
 }
-.cssmenu ul li:hover,
-.cssmenu ul li.active {
+header ul li:hover,
+header ul li.active {
   background: #1275ae;
   /* Old browsers */
 
@@ -83,8 +83,8 @@
   background: -ms-linear-gradient(bottom, #0b4669 0%, #1275ae 50%, #1794dc 51%, #1691d8 78%, #98d2f4 100%);
   background: linear-gradient(to top, #0b4669 0%, #1275ae 50%, #1794dc 51%, #1691d8 78%, #98d2f4 100%);
 }
-.cssmenu ul li:hover::after,
-.cssmenu ul li.active::after {
+header ul li:hover::after,
+header ul li.active::after {
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #1275ae 61%, #1275ae 100%);
   background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #1275ae 61%, #1275ae 100%);
   background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #1275ae 61%, #1275ae 100%);
