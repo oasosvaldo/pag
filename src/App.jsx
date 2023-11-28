@@ -3,6 +3,8 @@ import { Home } from "./pages/Home";
 import { Empresa } from "./pages/Empresa";
 import { Contato } from "./pages/Contato";
 import Media from "./pages/Media";
+import Cadastro from "./pages/Cadastro";
+
 import Header from './components/Header'
 import Footer from "./components/Footer";
 
@@ -16,6 +18,7 @@ function App() {
           <Route path="/empresa"><Empresa /></Route>
           <Route path="/contato"><Contato /></Route>
           <Route path="/media"><Media /></Route>
+          <Route path="/cadastro"><Cadastro /></Route>
         </Switch>
       </main>
       <Footer />

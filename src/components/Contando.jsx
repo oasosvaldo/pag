@@ -32,22 +32,23 @@ const JsIdade = () => {
                 }
             }
             res.innerHTML += '🏁'
+            res.style.padding = '0px 0px 100px 0px'
         }
     }
   return (
     <div>
         <h1>Vamos Contar?</h1>
-        <section>
-            <div id="form">
-                <div><label>Início</label> <input name="inicio" id="txti" type="number" placeholder="Digite um numero" /></div>
-                <div><label>Fim</label> <input name="fim" id="txtf" type="number" placeholder="Numero igual ou maior que 2" /></div>
-                <div><label>Passo</label> <input name="passo" id="txtp" type="number" placeholder="Digite um numero" /></div>
-                <div><button onClick={contar}>Contar</button></div>
-            </div>
+            <div className='form' id="form">
+                <ul>
+                <li><label>Início</label> <input name="inicio" id="txti" type="number" placeholder="Digite um numero" /></li>
+                <li><label>Fim</label> <input name="fim" id="txtf" type="number" placeholder="Numero igual ou maior que 2" /></li>
+                <li><label>Passo</label> <input name="passo" id="txtp" type="number" placeholder="Digite um numero" /></li>
+                <li><button onClick={contar}>Contar</button></li>
+                </ul>
             <div id="res">
                 Preparando a contagem...
             </div>
-        </section>
+            </div>
     </div>
   )
 }

@@ -1,12 +1,12 @@
+.form {    
+    padding: 20px;
+}
+
 .form ul li {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 36%;
-}
-
-.form {    
-    padding: 20px;
 }
 
 .resposta {

@@ -42,25 +42,25 @@ const Teste = () => {
     window.location.reload();
   }
   return (
-    <div>
-      <div className='form'>
-        <h1>Preencha os campos abaixo!</h1>
-        <ul>
-          <li>
-            <label>Digite seu nome:</label><input className="nome" type="text" placeholder="Digite seu nome completo" />
-          </li>
-          <li>
-            <label>Digite a primeira nota:</label><input className="n1" type="text" placeholder="primeira nota" />
-          </li>
-          <li>
-            <label>Digite a segunda nota:</label><input className="n2" type="text" placeholder="segunda nota" />
-          </li>
-          <li>
-            <label>Digite a terceira nota:</label><input className="n3" type="text" placeholder="terceira nota" />
-          </li>
-        </ul>
-        <button className='btnCalc' onClick={calcular}>Calcular</button>
-      </div>
+    <div className='form'>
+      <h1>Preencha os campos abaixo!</h1>
+      <ul>
+        <li>
+          <label>Digite seu nome:</label><input className="nome" type="text" placeholder="Digite seu nome completo" />
+        </li>
+        <li>
+          <label>Digite a primeira nota:</label><input className="n1" type="text" placeholder="primeira nota" />
+        </li>
+        <li>
+          <label>Digite a segunda nota:</label><input className="n2" type="text" placeholder="segunda nota" />
+        </li>
+        <li>
+          <label>Digite a terceira nota:</label><input className="n3" type="text" placeholder="terceira nota" />
+        </li>
+        <li>
+          <button className='btnCalc' onClick={calcular}>Calcular</button>
+        </li>
+      </ul>
       <div className='resposta'>
         <div className='res'></div>
         <div className='status'></div>

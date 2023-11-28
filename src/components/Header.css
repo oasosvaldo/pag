@@ -29,6 +29,7 @@ header {
 header ul {
   width: 96vw;
 }
+
 header ul {
   background: #222222;
   /* Old browsers */
@@ -54,7 +55,7 @@ header ul li {
   border-right: 1px solid rgba(0, 0, 0, 0.22);
   z-index: 1;
 }
-header ul li::after {
+header ul li:after {
   content: "";
   height: 8px;
 }
